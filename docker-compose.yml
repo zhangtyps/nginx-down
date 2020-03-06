@@ -3,7 +3,7 @@ version: "2"
 services: 
   download:
     build: .
-    container_name: "bboysoul_download"
+    container_name: "nginx_download"
     ports:
       - "8084:80"
     volumes:
